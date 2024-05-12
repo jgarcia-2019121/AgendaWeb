@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/contacto.css">
+    <link rel="icon" href="https://cdn.icon-icons.com/icons2/1042/PNG/512/Contact_Icon_icon-icons.com_76434.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<nav class="navegacion">
+    <ul class="menu">
+        <img src="./img/escudo.png" class="fundacion" alt="Fundacion Kinal">
+    </li>
+    <li><a href="contactos.html">Inicio</a></li>
+    <li><a href="favoritos.html">Favoritos</a></li>
+    <li><a href="toDoList.html">ToDo</a></li>
+    <li><a href="profileUser.html">Perfiles</a></li>
+    <li><a href="newContact.html">Crear Contacto</a></li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="detailsContact.html">Detalle contacto</a></li>
+  </nav>
+<body>
+    <div class="contact">
+        <div class="contact container my-3">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-4 bg-white">
+                    <h2>Contactos favoritos ⭐️</h2>
+                    <hr class="separator">
+                    <div class="botones gap-2"">
+                        <button class=" btn btn-primary"><a class="btn btn-primary" href="newContact.html">Agregar
+                                Nuevo Contacto</a></button>
+                            <button class="btn btn-danger"><a class="btn btn-danger" href="favoritos.html">Cancelar</a></button>
+                        </div>
+                    <form>
+                        <br>
+                        <div class="icon-contact">
+                            <img src="https://cdn.icon-icons.com/icons2/1042/PNG/512/Contact_Icon_icon-icons.com_76434.png" class="icon-contact">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 py-4 bg-white">
+                    <h2>Lista de los favoritos ⭐️</h2>
+                    <table class="table table-responsive-sm">
+                        <thead>
+                            <tr>
+                                <th class="centrado">No.</th>
+                                <th class="centrado">Nombre y apellido</th>
+                                <th class="centrado">Número</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="centrado"><a class="numero" href="detailsContact.html">1</a></td>
+                                <td class="centrado"><a class="nombre" href="detailsContact.html">Jonathan García</a></td>
+                                <td class="centrado"><a class="phone">4996-8138</td></a>
+                            </tr>
+                            <tr>
+                                <td class="centrado"><a class="numero" href="detailsContact.html">2</a></td>
+                                <td class="centrado"><a class="nombre" href="detailsContact.html">Roberto Cruz</a></td>
+                                <td class="centrado"><a class="phone">5500-0200</td></a>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

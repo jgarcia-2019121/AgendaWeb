@@ -1,0 +1,136 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.menu img {
+  margin-right: 15px;
+  width: 65px;
+  height: 60px;
+}
+
+.menu li {
+  margin: 0 10px;
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.menu > li {
+  position: relative;
+  display: inline-block;
+}
+
+.menu > li > a {
+  color: #000000;
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.menu li a:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.icon-contact{
+  width: 290px;
+  height: 280px;
+  margin-left: 30px;
+}
+
+.contact {
+  margin: 20px;
+}
+
+.contact .container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.separator {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 3px solid #0037ff;
+}
+
+.contact .botones {
+  display: flex;
+  gap: 10px;
+}
+
+.table {
+  margin-top: 50px;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.nombre {
+  text-decoration: none;
+  color: #000000;
+}
+
+.start{
+  text-decoration: none;
+  color: #000000;
+}
+
+.numero {
+  text-decoration: none;
+  color: red;
+}
+
+.phone {
+  text-decoration: none;
+  color: blue;
+}
+
+.User-image{
+  width: 290px;
+  height: 280px;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+
+  .menu img {
+    margin-right: 0;
+  }
+
+  .icon-contact {
+    margin: 20px auto;
+  }
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New contact</title>
+    <link rel="stylesheet" href="./CSS/contacto.css">
+    <link rel="icon" href="https://cdn.icon-icons.com/icons2/1042/PNG/512/Contact_Icon_icon-icons.com_76434.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<nav class="navegacion">
+    <ul class="menu">
+        <img src="./img/escudo.png" class="fundacion" alt="Fundacion Kinal">
+    </li>
+    <li><a href="contactos.html">Inicio</a></li>
+    <li><a href="favoritos.html">Favoritos</a></li>
+    <li><a href="toDoList.html">ToDo</a></li>
+    <li><a href="profileUser.html">Perfiles</a></li>
+    <li><a href="newContact.html">Crear Contacto</a></li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="detailsContact.html">Detalle contacto</a></li>
+  </nav>
+<body>
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 py-4 bg-white">
+                <h2>Nuevo Contacto</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Inserte el nombre y apellido"/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Teléfono</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Inserte su número de teléfono"/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Correo electronico</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Inserte el correo"/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Contraseña</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Inserte la contraseña"/>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary"><a class="btn btn-primary" href="newContact.html">Guardar</a></button> 
+                        <button class="btn btn-danger"><a class="btn btn-danger" href="contactos.html">Cancelar</a></button>               
+                    </div>                  
+                </form>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 py-4 bg-white">
+                <h2>Lista de los Contactos</h2>
+                <table class="table table-responsive-sm">
+                    <thead>
+                        <tr>
+                            <th class="centrado">No.</th>
+                            <th class="centrado">Nombre y apellido</th>
+                            <th class="centrado">Teléfono</th>
+                            <th class="centrado">Correo electronico</th>
+                            <th class="centrado">Contraseña</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="centrado">1</td>
+                            <td class="centrado">Jonathan García</td>
+                            <td class="centrado">4996-8138</td>
+                            <td class="centrado">jgarcia-2019121@kinal.edu.gt</td>
+                            <td class="centrado">123</td>
+                        </tr>
+                        <tr>
+                            <td class="centrado">2</td>
+                            <td class="centrado">Roberto Cruz</td>
+                            <td class="centrado">5500-0200</td>
+                            <td class="centrado">rcruz@gmail.com</td>
+                            <td class="centrado">223</td>
+                        </tr>
+                        <tr>
+                            <td class="centrado">3</td>
+                            <td class="centrado">Monica Díaz</td>
+                            <td class="centrado">3820-6782</td>
+                            <td class="centrado">mdiaz@gmail.com</td>
+                            <td class="centrado">092</td>
+                        </tr>
+                        <tr>
+                            <td class="centrado">4</td>
+                            <td class="centrado">Adrian Tapia</td>
+                            <td class="centrado">4482-7189</td>
+                            <td class="centrado">atapia@gmail.com</td>
+                            <td class="centrado">761</td>
+                        </tr>
+                        <tr>
+                            <td class="centrado">5</td>
+                            <td class="centrado">Florencia Barcelo</td>
+                            <td class="centrado">3710-5991</td>
+                            <td class="centrado">fbarcelo@gmail.com</td>
+                            <td class="centrado">548</td>
+                        </tr>
+                        </div>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

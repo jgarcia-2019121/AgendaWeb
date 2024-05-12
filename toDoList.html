@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDoList</title>
+  <link rel="stylesheet" href="./CSS/contacto.css">
+  <link rel="stylesheet" href="./CSS/toDoList.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<nav class="navegacion">
+  <ul class="menu">
+      <img src="./img/escudo.png" class="fundacion" alt="Fundacion Kinal">
+  </li>
+  <li><a href="contactos.html">Inicio</a></li>
+  <li><a href="favoritos.html">Favoritos</a></li>
+  <li><a href="toDoList.html">ToDo</a></li>
+  <li><a href="profileUser.html">Perfiles</a></li>
+  <li><a href="newContact.html">Crear Contacto</a></li>
+  <li><a href="login.html">Login</a></li>
+  <li><a href="detailsContact.html">Detalle contacto</a></li>
+</nav>
+<body>
+  <div id="todo-container" class="container mt-4">
+    <h2>ToDo List</h2>
+    <ul id="todo-list" class="list-group"></ul>
+    <div class="mb-3">
+      <label for="task" class="form-label">Nueva tarea:</label>
+      <input type="text" id="task" class="form-control" />
+    </div>
+    <div class="mb-3">
+      <label for="priority" class="form-label">Prioridad:</label>
+      <select id="priority" class="form-select">
+        <option value="alta">Alta</option>
+        <option value="media">Media</option>
+        <option value="baja">Baja</option>
+      </select>
+    </div>
+    <button onclick="addTask()" class="btn btn-primary"><a class="btn btn-primary">Agregar tarea</a></button>
+    <button class="btn btn-danger"><a class="btn btn-danger" href="contactos.html">Cancelar</a></button>
+  </div>
+  <script src="./Js/toDoList.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+</html>
